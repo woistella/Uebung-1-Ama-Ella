@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+body {background-color: #EDDFB6;
+	font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	font-size: 14pt;
+	font-weight: normal;
+	padding: 0%;
+	margin: 0%;
+	height: 100%;
+	width: 100%;}
+
+
+#header {font-size: 25px;
+	font-weight: bold;
+	margin-left: 50%;
+	margin-right: 50%;}
