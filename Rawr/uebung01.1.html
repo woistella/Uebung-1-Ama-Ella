@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BMI-Snooptrition</title>
+</head>
+	
+	<style> 
+	
+	html {	font-weight: bold;
+    	margin-left: 10%;
+	margin-right: 50%;}
+	
+		
+	body {background-color: #EDDFB6;
+	font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	font-size: 14pt;
+	font-weight: normal;
+	padding: 0%;
+	margin: 0%;
+	height: 100%;
+	width: 100%;}
+		
+		#header {font-size: 20pt;
+	font-weight: bold;
+	}
+	
+	#snoopydoc {height: 20%;
+			width: 20%;
+	margin-top:33px;} 
+	
+	#snoopy1 {height: 30%;
+	width: 30%;</style>
+
+<body>
+	<a href="uebung 1.html"><img src="snoopydoc.jpeg" id="snoopydoc" border="0"/></a>   <div id="header"> <h1>Snooptrition </h1> </div> <br>
+	
+<div>	<img src="snoopyscale.jpg" id="snoopy1" alt="Snoopy"></div>
+	<br>
+
+	Gewicht <input id="ge" type="text"> in kg <br>
+	Größe <input id="gr" type="text"> in m <br>
+	
+	<p><button onClick="Multiplikation()"> BMI ausrechnen! </button> </p>
+	
+	BMI: <input id="bmi" type="text">
+	
+	
+	
+		
+		<script>
+    function Multiplikation() {       
+        document.querySelector("#bmi").value = parseFloat(document.querySelector("#ge").value) / (parseFloat(document.querySelector("#gr").value) * parseFloat(document.querySelector("#gr").value));
+    }
+
+		
+	</script>
+	<p></p>
+	<a href="uebung01.2.html">Impressum</a>
+</body>
+</html>
